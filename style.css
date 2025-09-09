@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Mona+Sans:ital,wght@0,200..900;1,200..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Mona Sans", sans-serif;
+  outline: none;
+  background-color: #121e28;
+  text-decoration: none;
+  list-style-type: none;
+  color: #fff;
+}
+body {
+  width: 100%;
+}
+
+.navegacao {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 62px 0px 0;
+}
+
+.nav-h2 {
+  font-size: 50px;
+  letter-spacing: 5px;
+  margin-left: 246px;
+}
+
+.menu > li {
+  display: inline;
+}
+.menu li:nth-child(4) {
+  margin-right: 154px;
+}
+
+.menu a {
+  font-weight: 400;
+  font-size: 30px;
+  padding: 44px;
+  letter-spacing: 5px;
+}
