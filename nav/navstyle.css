@@ -1,0 +1,33 @@
+/* Menu de navegação */
+
+.navegacao {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 62px 0px 0;
+}
+
+.nav-h2 {
+  font-size: 50px;
+  letter-spacing: 5px;
+  margin-left: 246px;
+}
+
+.menu > li {
+  display: inline;
+}
+.menu li:nth-child(4) {
+  margin-right: 154px;
+}
+
+.menu a {
+  font-weight: 400;
+  font-size: 30px;
+  padding: 44px;
+  letter-spacing: 5px;
+  transition: 0.3s;
+}
+
+.menu a:hover {
+  opacity: 0.8;
+}

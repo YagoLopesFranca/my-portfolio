@@ -1,0 +1,151 @@
+/* PROJETOS   */
+.projetos {
+  /* max-height: 100vh; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.projetos h1 {
+  font-size: 112px;
+  margin-bottom: 46px;
+}
+
+.caixa-projetos---traco-Ponto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 17px;
+  margin-bottom: 22px;
+}
+
+.projetos-tracoHorizontal {
+  width: 5px;
+  height: 120px;
+  display: inline;
+  background-color: #ff715a;
+  border-radius: 10px;
+}
+
+.projetos-ponto {
+  width: 15px;
+  height: 15px;
+  background-color: #ff715a;
+  border-radius: 50px;
+}
+
+.caixa-projeto---imagemEmediaSocial {
+  margin-top: 118px;
+  margin-bottom: 80px;
+
+  display: flex;
+
+  /* border: 1px solid yellow; */
+}
+
+.projetos-mediaSocia-paragrafo {
+  width: 50%;
+  display: inline-block;
+  margin-left: 211px;
+}
+
+.projetos-mediaSocia-paragrafo h2 {
+  font-size: 58px;
+  line-height: 41px;
+  color: #fff;
+  font-weight: 500;
+  margin-bottom: 70px;
+}
+.projetos-mediaSocia---buttonsTecnologias {
+  display: flex;
+  gap: 30px;
+  font-size: 30px;
+}
+
+.projetos-mediaSocia---buttonsTecnologias button {
+  font-size: 30px;
+  font-weight: 400;
+  padding: 10px 35px;
+  background-color: #ffffff0e;
+  border-radius: 50px;
+  margin-bottom: 60px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.projetos-mediaSocia---buttonsTecnologias button:hover {
+  opacity: 0.5;
+}
+
+.projetos-mediaSocia-paragrafo p {
+  font-size: 30px;
+  line-height: 45px;
+  color: #ffffff;
+  opacity: 0.8;
+  width: 80%;
+  margin-bottom: 60px;
+  line-height: 58px;
+}
+
+.projetos-mediaSocia---buttonsVer {
+  display: flex;
+  gap: 40px;
+}
+
+.projetos-mediaSocia---buttonsVer button {
+  border: none;
+  background-color: none;
+}
+.projetos-mediaSocia---buttonsVer a {
+  border: none;
+  text-decoration: underline #ff715a;
+  text-underline-offset: 15px;
+  padding: 20px 35px;
+  font-size: 40px;
+  font-weight: 400;
+  border-radius: 30px;
+  color: white;
+  cursor: pointer;
+}
+
+.projetos-mediaSocia---buttonsVer a:hover {
+  background-color: #ff715a;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    #ff715a 0px 30px 60px -30px, #ff715a 0px -2px 6px 0px inset;
+}
+
+.seta {
+  background-color: inherit;
+  font-size: 50px;
+}
+
+.projetos-caixa---imageRedesSociais {
+  display: inline;
+  position: relative;
+  display: inline-block;
+}
+
+.projetos-caixa---imageRedesSociais img {
+  margin-top: 87px;
+  width: 86%;
+  margin-bottom: 20px;
+  position: relative;
+  z-index: 2; /* fica acima da borda */
+
+  box-shadow: rgba(136, 165, 191, 0.025) 6px 2px 16px 0px,
+    rgba(255, 255, 255, 0.025) -6px -2px 16px 0px;
+}
+
+.RedesSociais-divPersonalizada {
+  position: absolute;
+  top: 44px;
+  left: 146px;
+  width: 77%;
+  height: 79%;
+  border: 9px solid rgba(255, 255, 255, 0.116);
+  z-index: 1; /* fica atrás da imagem */
+}
